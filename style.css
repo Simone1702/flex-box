@@ -1,0 +1,83 @@
+*{ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    background-color: #dfe0f0;
+    
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 2em;
+    font-size: 1.1em;
+
+
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-right: 100vh;
+}
+.header{
+    background-color:  #45bbf6;
+    color: #ffffff;
+    padding:2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.6rem #14b8b8 ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/**main{
+    display: flex;
+    flex-grow: 1;
+}**/
+.content-main{
+    background-color: #3cb371;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    width: 160vh;
+    border-radius: 3rem;
+    box-shadow: 0 0.5rem 0.2rem #0c6834;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    display: flex;
+   /** align-items: stretch;
+    width: calc(100% 200px);**/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: #0c6834 ;
+    color: #ffffff;
+    margin: 2rem;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.3rem  #ffffff  ;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+.sidebar{
+    background-color:  #cd5c5c;
+    box-shadow: 0 0.5rem 0.7rem #882624;
+    color: #ffffff;
+    display: flex;
+    width: 20vh;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    padding: 3rem;
+    padding-bottom:17.4rem;
+    padding-left: 4rem;
+    margin-right: 3rem;
+    margin-top: -23rem;
+
+
+}
+.footer{
+    background-color: #8b5cac;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.7rem #652783;
+}
